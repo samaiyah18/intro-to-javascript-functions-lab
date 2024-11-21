@@ -1,0 +1,86 @@
+/*
+Exercise 1: maxOfTwoNumbers()
+
+In this exercise, create a function named maxOfTwoNumbers. 
+It should take two numbers as inputs and return the larger number. 
+If they're equal, return either one.
+
+Exercise 1 has been completed for you:
+*/
+
+const maxOfTwoNumbers = (x, y) => {
+    if (x >= y) {
+      return x;
+    } else {
+      return y;
+    }
+  }
+  
+  console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
+
+
+// Exercise 2: isAdult()
+
+const isAdult = () =>{
+    if(18 > 21 ){
+        return "Adult";
+    } else{
+        return "minor";
+    }
+}
+console.log('Exercise 2 Result:', isAdult(21));
+
+// Exercise 3: isCharAVowel()
+const isCharAVowel = (a,i) => {
+    if (a=== i){
+        return true;
+    } else{ ("not a vowel")
+        return false;
+    }
+}
+console.log('Exercise 3 Result:', isCharAVowel("a"));
+
+// Exercise 4 : generateEmail()
+
+const generateEmail =("johnsmith" ,'example.com') ;
+        return 'johnsmith@example.com'
+    console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+
+// Exercise 5: greetUser()
+const greetUser = ("Maiyah","Morning")
+   return ("Goodmorning, Maiyah");
+
+   console.log('Exercise 5 Result:', greetUser("maiyah", "morning"));
+
+
+//  Exercise 6: maxOfThree()
+const maxOfThree = (21,8,6)  
+    if( 6 < 21 ){
+    return 21;  
+} else {
+    return "invalid";
+}
+ console.log('Exercise 6 Result:', maxOfThree(21,8,6));
+
+//  Exercise 7 : calculateTip()
+    const calculateTip=(50 ,20)
+        if(50%20){
+            return 10 
+        }
+console.log('Exercise 7 Result:', calculateTip(50, 20));
+
+// Exercise 8 convertTemperature()
+        const convertTemperature = (32 ,'F' , 32 , 'C') ; {
+            if (32 === "F"){
+                return 89.6
+            }else (32!== "C");
+                return 0
+            }
+     console.log('Exercise 8 Result:', convertTemperature(32,"C"));
+
+    //  Exercise 9: basicCaculator()
+    const basicCaculator = ('add', 'subtract', 'multiply', 'divide');
+    if(24 % 6)
+        return 4;{
+    }
+    console.log('Exercise 9 Result:', basicCaculator(24 , 6, "divide"));
